@@ -1,0 +1,25 @@
+$(document).ready(function () {
+  Fancybox.bind("[data-fancybox]", {});
+
+  /*document
+    .querySelector(".header-toggler")
+    .addEventListener("click", function () {
+      document.querySelector(".header-toggler").classList.toggle("active");
+      document.querySelector(".header-menu").classList.toggle("active");
+    });*/
+
+  $(".banner-slider").owlCarousel({
+    items: 1,
+    loop: false,
+    rewind: true,
+    margin: 0,
+    nav: true,
+    navText: [
+      '<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" width="17" height="10"><path d="m16.43 5.35q0.01-0.03 0.02-0.05 0.05-0.15 0.05-0.3 0-0.15-0.05-0.29-0.01-0.03-0.02-0.06-0.06-0.14-0.15-0.25 0-0.01-0.01-0.01l-2.94-3.54c-0.34-0.41-0.96-0.47-1.38-0.13-0.22 0.18-0.35 0.45-0.35 0.74q0 0.35 0.22 0.62l1.63 1.95h-11.98c-0.54 0-0.98 0.44-0.98 0.97 0 0.54 0.44 0.97 0.98 0.97h11.98l-1.63 1.96q-0.22 0.27-0.22 0.61c0 0.29 0.13 0.56 0.35 0.75q0.32 0.25 0.72 0.21 0.4-0.04 0.66-0.34l2.95-3.54q0-0.01 0-0.01 0.09-0.12 0.15-0.26z"/></svg>',
+      '<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" width="17" height="10"><path d="m16.43 5.35q0.01-0.03 0.02-0.05 0.05-0.15 0.05-0.3 0-0.15-0.05-0.29-0.01-0.03-0.02-0.06-0.06-0.14-0.15-0.25 0-0.01-0.01-0.01l-2.94-3.54c-0.34-0.41-0.96-0.47-1.38-0.13-0.22 0.18-0.35 0.45-0.35 0.74q0 0.35 0.22 0.62l1.63 1.95h-11.98c-0.54 0-0.98 0.44-0.98 0.97 0 0.54 0.44 0.97 0.98 0.97h11.98l-1.63 1.96q-0.22 0.27-0.22 0.61c0 0.29 0.13 0.56 0.35 0.75q0.32 0.25 0.72 0.21 0.4-0.04 0.66-0.34l2.95-3.54q0-0.01 0-0.01 0.09-0.12 0.15-0.26z"/></svg>',
+    ],
+    dots: true,
+    autoplay: true,
+    autoplayTimeout: 6500,
+  });
+});

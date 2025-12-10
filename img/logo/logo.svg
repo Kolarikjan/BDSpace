@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 22" width="168" height="22">
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 30px;line-height: 36px;text-transform: uppercase;fill: #282d75;font-weight: 300;font-family: "HostGrotesk-ExtraBold", "Host Grotesk" } 
+	</style>
+	<g id="Top">
+		<text id="-e-logo" style="transform: matrix(1,0,0,1,-1.007,21.325)" >
+			<tspan x="0" y="0" class="t0" dx="0 0 0 0 0 0 0 0 0 0 0" >BDSPACE.CZ
+</tspan>
+		</text>
+	</g>
+</svg>
