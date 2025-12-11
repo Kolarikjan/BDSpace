@@ -34,7 +34,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#nase-mise" target="_blank">
+                                <a class="nav-link" href="#nase-mise">
                                     Naše mise
                                 </a>
                             </li>
@@ -88,7 +88,7 @@
         </div>
     </header>
     <main class="body">
-        <section class="banner">
+        <section class="banner d-none d-md-block" data-aos="fade-up" data-aos-delay="50">
             <div class="container container-extended">
                 <div class="banner-slider owl-carousel owl-theme">
                     <div class="banner-item">
@@ -105,10 +105,25 @@
                 </div>
             </div>
         </section>
+        <section class="banner d-md-none" data-aos="fade-up" data-aos-delay="10">
+            <div class="banner-slider owl-carousel owl-theme">
+                <div class="banner-item">
+                    <img src="img/banner/banner-mobile.png" alt="BD SPACE" class="banner-item-image img-fluid">
+                    <div class="banner-item-text ">
+                        <h1 class="banner-item-text-title">BD SPACE</h1>
+                        <p class="banner-item-text-description">Kosmické schopnosti včetně výroby v čistých prostorách jsou založeny na <b>dlouholeté zkušenosti potvrzené sérií kosmických přístrojů</b> úspěšně fungujících na různých satelitech ESA.</p>
+                        <a href="#nase-mise" class="banner-item-text-button button button-blue">
+                            <span>Naše mise</span>
+                            <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 16" width="31" height="16"><path d="m30.84 7.64q0.01 0.03 0.02 0.06 0.05 0.17 0.06 0.34-0.01 0.18-0.06 0.34-0.01 0.04-0.02 0.07-0.06 0.16-0.17 0.29 0 0.01-0.01 0.01l-5.62 6.39c-0.39 0.48-1.09 0.54-1.56 0.15-0.26-0.21-0.41-0.52-0.41-0.86q0.01-0.4 0.26-0.71l4.12-4.56h-25.44c-0.61 0-1.11-0.5-1.11-1.12 0-0.61 0.5-1.11 1.11-1.11h25.44l-4.12-4.57q-0.25-0.31-0.26-0.71c0-0.33 0.15-0.64 0.41-0.86q0.35-0.28 0.81-0.24 0.46 0.04 0.75 0.4l5.62 6.38q0.01 0.01 0.01 0.02 0.11 0.13 0.17 0.29z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="section about" id="o-nas">
             <div class="container">
                 <div class="about-wrapper">
-                    <div class="about-icons">
+                    <div class="about-icons" data-aos="fade-up" data-aos-delay="100">
                         <div class="section-header-small">
                             <span class="section-header-minititle">možnosti</span>
                             <h2>Hlavní možnosti zahrnují následující oblasti:</h2>
@@ -144,7 +159,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="about-text">
+                    <div class="about-text" data-aos="fade-up" data-aos-delay="150">
                         <p>BD SENSORS (BDS) je soukromá společnost založená v roce 1993, která se zabývá vývojem a výrobou přístrojů pro měření tlaku. V roce 2013 zahájila BDS projekt ESA pro vesmírný senzor určený k použití v raketových motorech. Sloučení BDS a CSRC (Czech Space Research Centre)  realizované v listopadu 2017 vedlo k posílení BDS o „CSRC Space Division“, která má více než 20 let „vesmírného dědictví“ v oblasti návrhu a výroby vesmírné elektroniky.</p>
                         <p>Vesmírné schopnosti včetně výroby v čistých prostorách jsou založeny na dlouholetých zkušenostech, potvrzených řadou vesmírných přístrojů úspěšně fungujících v různých satelitech ESA. Implementace standardů ESA ECSS týkajících se návrhu elektroniky a aktivit ve výrobě v čistých prostorách, včetně pravidelných průmyslových auditů ESA, činí z BDS atraktivního obchodního partnera pro evropský i světový vesmírný a letecký průmysl.</p>
                     </div>
@@ -154,7 +169,7 @@
         <section class="section partners">
             <div class="container">
                 <div class="about-icons">
-                    <div class="section-header section-header-center">
+                    <div class="section-header section-header-center" data-aos="fade-up" data-aos-delay="50">
                         <h3>Jsme členem Asociace kosmického / leteckého obchodu</h3>
                         <div class="section-header-description">
                             <p>Kosmické schopnosti včetně výrobý v čistých prostorách, vycházejí z dlouholetých zkušeností, které jsou doloženy řadou vesmírných přístrojů úspěšně fungujících na různých družicích ESA.</p>
@@ -162,27 +177,31 @@
                     </div>
                     <div class="section-content">
                         <div class="partners-wrapper">
-                            <a href="#" target="_blank" class="partners-item">
-                                <img src="img/company/company-csa.png" alt="csa">
-                            </a>
-                            <a href="#" target="_blank" class="partners-item">
-                                <img src="img/company/company-bstg.png" alt="bstg">
-                            </a>
+                            <div data-aos="fade-up" data-aos-delay="100">
+                                <a href="#" target="_blank" class="partners-item">
+                                    <img src="img/company/company-csa.png" alt="csa">
+                                </a>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="150">
+                                <a href="#" target="_blank" class="partners-item" >
+                                    <img src="img/company/company-bstg.png" alt="bstg">
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section news section-gray">
+        <section class="section news section-gray" id="nase-mise">
             <div class="container">
-                <div class="section-header section-header-center">
+                <div class="section-header section-header-center" data-aos="fade-up" data-aos-delay="50">
                     <span class="section-header-minititle">Naše mise</span>
                     <h2>Pomáháme budovat <span>budoucnost vesmírného průzkumu.</span></h2>
                 </div>
             </div>
             <div class="container container-extended-xl">
                 <div class="news-wrapper">
-                    <div class="news-item">
+                    <div class="news-item" data-aos="fade-up" data-aos-delay="100">
                         <a href="#" class="news-item-header">
                             <img src="img/news/news-1.png" alt="Mission Solar Orbiter" class="news-item-image">
                         </a>
@@ -206,7 +225,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="news-item">
+                    <div class="news-item" data-aos="fade-up" data-aos-delay="150">
                         <a href="#" class="news-item-header">
                             <img src="img/news/news-2.png" alt="Mission JUICE" class="news-item-image">
                         </a>
@@ -231,7 +250,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="news-item">
+                    <div class="news-item" data-aos="fade-up" data-aos-delay="200">
                         <a href="#" class="news-item-header">
                             <img src="img/news/news-3.png" alt="Mission MetOp-SG" class="news-item-image">
                         </a>
@@ -260,7 +279,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="kontakt">
         <div class="container">
             <div class="section-header-small section-header-center">
                 <span class="section-header-minititle">Kontakt</span>
